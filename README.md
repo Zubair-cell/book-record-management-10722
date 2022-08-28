@@ -28,7 +28,7 @@ POST: Create new book
 GET: Get a book by id
 POST: Update a book by id
 
-## /books/issued
+## /books/issued/books
 GET: Get all issued books
 
 ## /books/issued/withFine
