@@ -21,12 +21,12 @@ GET: Get user subscription details
 
 ## /books
 
-GET: Get all books
-POST: Create new book
+GET: Get all books✅
+POST: Create new book✅
 
 ## /books/{id}
-GET: Get a book by id
-POST: Update a book by id
+GET: Get a book by id✅
+POST: Update a book by id✅
 
 ## /books/issued/books
 GET: Get all issued books
