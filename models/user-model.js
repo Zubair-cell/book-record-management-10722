@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
 
-    mame: {
+    name: {
         type: String,
         required: true,
     },
@@ -17,9 +17,13 @@ const userSchema = new Schema({
         type: String,
         required: true,
     },
-    issuedook: {
+    issuedBook: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Book",
+        required: false,
+    },
+    issuedDate: {
+        type: String,
         required: false,
     },
     returnDate: {

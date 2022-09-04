@@ -34,7 +34,7 @@ GET: Get all issued books
 ## /books/issued/withFine
 GET: ALL issued books with fine
 
-# Subcription Types
+# Subscription Types
 
 basic (3 months)
 Standard(6 months)
